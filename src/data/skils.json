@@ -1,0 +1,9 @@
+[
+  { "title": "HTML", "name": "Html" },
+  { "title": "CSS", "name": "Css" },
+  { "title": "react","name": "React" },
+  { "title": "mongo","name": "MongoDB" },
+  { "title": "node" ,"name": "NodeJs"},
+  { "title": "fig","name": "Figma" },
+  { "title": "fire" ,"name": "Firebase"}
+]
