@@ -1,6 +1,6 @@
 import '../About/About.css'
 import React from "react";
-import AboutMe from "../../assets/about/aboutImage.png";
+import AboutMe from "../../assets/about/mike.png";
 import Cursor from '../../assets/about/cursorIcon.png';
 import Server from '../../assets/about/serverIcon.png';
 import UI from '../../assets/about/uiIcon.png'

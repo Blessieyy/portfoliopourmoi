@@ -11,9 +11,9 @@ import nodeImg from "../../assets/skills/node.png";
 import figmaImg from "../../assets/skills/figma.png";
 import firebaseImg from "../../assets/skills/firebase.png";
 
-import googleImg from "../../assets/history/google.png";
+import mlabImg from "../../assets/history/mlab.png";
 import microsoftImg from "../../assets/history/microsoft.png";
-import netflixImg from "../../assets/history/netflix.png";
+import gijimaImg from "../../assets/history/gijima.png";
 
 const images = {
   HTML: htmlImg,
@@ -26,9 +26,9 @@ const images = {
 };
 
 const historyImages = {
-  google: googleImg,
+  mlab: mlabImg,
   microsoft: microsoftImg,
-  netflix: netflixImg,
+  gijima: gijimaImg,
 };
 
 function Exp() {
