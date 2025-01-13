@@ -1,9 +1,13 @@
 import "../../components/Project/ProjectCard.css";
 import React from "react";
 
-import projectImg from "../../assets/projects/project.png";
+import newsImg from "../../assets/projects/news.png";
+import recipeImg from "../../assets/projects/recipe.png";
+import hotelImg from "../../assets/projects/Hotel.png";
 const image = {
-  pro: projectImg,
+  news: newsImg,
+  recipe: recipeImg,
+  hotel: hotelImg,
 };
 
 function ProjectCard({

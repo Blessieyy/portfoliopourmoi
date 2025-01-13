@@ -24,7 +24,7 @@
       box-shadow: 0 0 10px rgb(66, 0, 133), 0 0 20px rgb(66, 0, 133);
   }
   100% {
-      box-shadow: 0 0 30px rgb(66, 0, 133), 0 0 60px rgb(66, 0, 133);
+      box-shadow: 0 0 60px rgb(66, 0, 133), 0 0 60px rgb(66, 0, 133);
   }
 }
 
@@ -40,6 +40,19 @@
   .head {
     font-size: 52px;
     font-weight: 900;
+    margin-bottom: 5px;
+    background: linear-gradient(
+      rgb(221, 221, 221) 70%,
+      rgba(217, 224, 241, 0) 120%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .head2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(177, 177, 177);
+    font-style: italic;
     margin-bottom: 33px;
     background: linear-gradient(
       rgb(221, 221, 221) 70%,
@@ -47,6 +60,7 @@
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+
   }
   
   .desc {
@@ -66,7 +80,7 @@
   }
   
   .hero-img {
-    width: 50%;
+    width: 80%;
     z-index: 1;
   
     animation-name: floating;
@@ -74,6 +88,12 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
+
+  .hero-img img{
+    width: 80%;
+    
+  }
+  
   
   @keyframes floating {
     0% {

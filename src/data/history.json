@@ -4,25 +4,25 @@
       "organisation": "mlab, codetribe",
       "startDate": "jul, 2024",
       "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+      "experiences": ["Developed Frontend and backend"],
       "img": "mlab",
       "Name": "Mlab"
     },
     {
       "role": "Microsoft Azure Data Fundamentals",
-      "organisation": "Mirosoft",
+      "organisation": "Microsoft",
       "startDate": "Aug, 2021",
       "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "experiences": [" foundational knowledge of core data concepts and related Microsoft Azure data services."],
       "img": "microsoft",
       "Name": "Microsoft"
     },
     {
       "role": "Microsoft Power BI Data Analyst ",
-      "organisation": "Mirosoft",
+      "organisation": "Microsoft",
       "startDate": "Aug, 2021",
       "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "experiences": ["Data Analysis skills", "design, develop, and deploy business analytics dashboards using Microsoft Power BI"],
       "img": "microsoft",
       "Name": "Microsoft"
     },
@@ -32,8 +32,7 @@
       "startDate": "Apr, 2020",
       "endDate": "Jun, 2020",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+        "managing and maintaining the various components of an organization's IT infrastructure to ensure its smooth operation and effective use."
       ],
       "img": "gijima",
       "Name": "Gijima"
