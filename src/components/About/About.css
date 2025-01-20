@@ -9,8 +9,8 @@
   margin-right: 10%;
 }
 .about-header {
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 900;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
@@ -29,6 +29,7 @@
   flex-direction: column;
   gap: 50px;
 }
+
 
 .aboutItem {
   display: flex;
@@ -50,11 +51,13 @@
     background-size: 100% 100%;
 }
 .aboutItem h3{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 12px;
 }
 .aboutItem p{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 @media screen and (max-width: 830px){

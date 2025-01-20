@@ -20,8 +20,8 @@ function About() {
           <li className="aboutItem">
             <img src={Cursor} alt="CursorIcon" />
             <div className="aboutItemText">
-              <h3>Frontend Developer</h3>
-              <p>
+              <h3 className="aboutHeader">Frontend Developer</h3>
+              <p className="aboutText">
                 I'm a frontend developer with experience in building responsive
                 and optimised websites
               </p>
@@ -30,8 +30,8 @@ function About() {
           <li className="aboutItem">
             <img src={Server} alt="ServerIcon" />
             <div className="aboutItemText">
-              <h3>Backend Developer</h3>
-              <p>
+              <h3  className="aboutHeader">Backend Developer</h3>
+              <p className="aboutText">
                 I have experience in developing fast and optimised Backend
                 systems and APIs
               </p>
@@ -40,8 +40,8 @@ function About() {
           <li className="aboutItem">
             <img src={UI} alt="UIIcon" />
             <div className="aboutItemText">
-              <h3>UI Designer</h3>
-              <p>
+              <h3  className="aboutHeader">UI Designer</h3>
+              <p className="aboutText">
                 I have designed multiple landing pages and designed systems as
                 well
               </p>
