@@ -20,11 +20,11 @@ function Contact() {
             </li>            
             <li className='contact-link'>
                 <img src={linkedin} alt='email'/>   
-                <a href='linkedin web'>linked.com</a>
+                <a href='https://www.linkedin.com/in/tebatso-blessie-mogashoa-b4b93a22b/'>linked.com</a>
             </li>            
             <li className='contact-link'>
                 <img src={github} alt='email'/>   
-                <a href='github web'>github.com</a>
+                <a href='https://github.com/Blessieyy'>github.com</a>
             </li>            
         </ul>
     </footer>
