@@ -1,0 +1,43 @@
+.nav-container {
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px; 
+    margin-top: 0; 
+    background-color: #d4dcec;
+    padding: 0.25rem;
+    border-radius: 9999px;
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 70px;
+   
+    
+  }
+  
+  .nav-slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: #19376d;
+    border-radius: 9999px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-item {
+    width: 50%;
+    text-align: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    color: #4e535a;
+  }
+  
+  .nav-item.active {
+    color: rgb(255, 255, 255);
+  }
+  

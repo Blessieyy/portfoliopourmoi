@@ -4,6 +4,8 @@
     margin-right: 10%;
 }
 .project-title{
+    justify-content: center;
+    text-align: center;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75;

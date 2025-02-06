@@ -14,6 +14,7 @@ function ProjectTabs() {
   const [selectedTab, setSelectedTab] = useState("project");
 
   return <div>
+    <h2 className="project-title">Projects</h2>
     <ProjectNavTab setSelectedTab={setSelectedTab} />
     {TABS[selectedTab]}
   </div>;
