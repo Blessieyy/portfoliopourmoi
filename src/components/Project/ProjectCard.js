@@ -4,10 +4,14 @@ import React from "react";
 import newsImg from "../../assets/projects/news.png";
 import recipeImg from "../../assets/projects/recipe.png";
 import hotelImg from "../../assets/projects/Hotel.png";
+import emImg from "../../assets/projects/employee.png";
+import tdImg from "../../assets/projects/ToDo.png";
 const image = {
   news: newsImg,
   recipe: recipeImg,
   hotel: hotelImg,
+  employee: emImg,
+  todo: tdImg,
 };
 
 function ProjectCard({

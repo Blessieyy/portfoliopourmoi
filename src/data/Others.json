@@ -1,0 +1,18 @@
+[
+    {
+        "title2": "Employee App",
+        "img2": "employee",
+        "description2": "This is a project made to learn the latest languages by building an app.",
+        "skills2": "React Express Node",
+        "demo2": "https://employee-blue.vercel.app/",
+        "source2": "https://github.com/Blessieyy/News-main.git"
+      },
+      {
+        "title2": "To-Do List",
+        "img2": "todo",
+        "description2": "This is a project made to learn the latest languages by building an app.",
+        "skills2": "React Express Node",
+        "demo2": "https://todolist-pi-lovat.vercel.app/todo",
+        "source2": "https://github.com/Blessieyy/News-main.git"
+      }
+]
