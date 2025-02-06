@@ -4,7 +4,8 @@ import Contact from "./components/Contact/Contact";
 import Exp from "./components/Experience/Exp";
 import Hero from "./components/HeroSection/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import Project from "./components/Project/Project";
+
+import ProjectTabs from "./components/Project/ProjectTabs";
 
 function App() {
   return <div className="App">
@@ -12,7 +13,7 @@ function App() {
     <Hero/>
     <About/>
     <Exp/>
-    <Project/>
+    <ProjectTabs/>
     <Contact/>
   </div>;
 }
