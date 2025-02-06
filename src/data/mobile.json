@@ -1,0 +1,29 @@
+[
+  
+    {
+      "title": "Recording ",
+      "img": "news",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://vercel.com/blessieyys-projects/news-main",
+      "source": "https://github.com/Blessieyy/News-main.git"
+    },
+    {
+      "title": "Recipe App",
+      "img": "recipe",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://recipes-main-five.vercel.app/",
+      "source": "https://github.com/Blessieyy/Recipes.-main-main.git"
+    },
+    {
+      "title": "Hotel App",
+      "img": "hotel",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://costal-living-hotel.vercel.app/",
+      "source": "https://github.com/Blessieyy/News-main.git"
+      
+    }
+
+  ]
