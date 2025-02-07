@@ -118,6 +118,29 @@ input[type="number"] {
   width: 80px;
   margin-bottom: 5px;
 }
+.performance-container {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.performance-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.performance-fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.level {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
 
 @media screen and (max-width: 830px) {
     .exp-content{

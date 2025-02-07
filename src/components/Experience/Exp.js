@@ -1,6 +1,6 @@
 import '../Experience/Exp.css';
 import React, { useState, useEffect } from "react";
-import skills from "../../data/skils.json";
+import skills from "../../data/skils.json"; 
 import history from "../../data/history.json";
 
 import htmlImg from "../../assets/skills/html.png";
@@ -31,61 +31,40 @@ const historyImages = {
   gijima: gijimaImg,
 };
 
-// PerformanceDisplay component for each skill
-const PerformanceDisplay = ({ performance, setPerformance }) => {
-  const handleInputChange = (e) => {
-    const value = parseInt(e.target.value, 10);
-    if (!isNaN(value) && value >= 0 && value <= 100) {
-      setPerformance(value);
-    }
-  };
+
+const getLevelColor = (level) => {
+  switch(level) {
+    case 'Beginner':
+      return 'lightblue'; 
+    case 'Intermediate':
+      return 'yellow'; 
+    case 'Advanced':
+      return 'green'; 
+    default:
+      return 'gray'; 
+  }
+};
+
+
+const PerformanceDisplay = ({ performance, level }) => {
+  const levelColor = getLevelColor(level);
 
   return (
     <div className="performance-container">
-      <input
-        type="number"
-        min="0"
-        max="100"
-        value={performance}
-        onChange={handleInputChange}
-        placeholder="Enter performance (0-100)"
-      />
       <div className="performance-bar">
         <div
           className="performance-fill"
-          style={{ width: `${performance}%` }}
+          style={{ width: `${performance}%`, backgroundColor: levelColor }}
         ></div>
       </div>
       <p>{performance}%</p>
+      <p className="level">{level}</p> 
     </div>
   );
 };
 
 function Exp() {
-  // Load initial performance data from localStorage or set default values
-  const loadInitialPerformance = () => {
-    const savedPerformances = JSON.parse(localStorage.getItem('skillPerformances'));
-    if (savedPerformances) {
-      return savedPerformances;
-    } else {
-      // Initialize performance with 0 for each skill if no data is found
-      return skills.reduce((acc, skill) => {
-        acc[skill.title] = 0;
-        return acc;
-      }, {});
-    }
-  };
 
-  const [skillPerformances, setSkillPerformances] = useState(loadInitialPerformance);
-
-  const handlePerformanceChange = (title, value) => {
-    setSkillPerformances((prev) => {
-      const updatedPerformances = { ...prev, [title]: value };
-      // Save updated performance to localStorage
-      localStorage.setItem('skillPerformances', JSON.stringify(updatedPerformances));
-      return updatedPerformances;
-    });
-  };
 
   return (
     <section className='exp-container' id="experience">
@@ -99,12 +78,10 @@ function Exp() {
                   <img src={images[skill.title]} alt={skill.title} />
                 </div>
                 <p>{skill.name}</p>
-                {/* Add PerformanceDisplay for each skill */}
-                <PerformanceDisplay
-                  performance={skillPerformances[skill.title]}
-                  setPerformance={(value) =>
-                    handlePerformanceChange(skill.title, value)
-                  }
+             
+                <PerformanceDisplay 
+                  performance={skill.performance} 
+                  level={skill.level} 
                 />
               </div>
             );

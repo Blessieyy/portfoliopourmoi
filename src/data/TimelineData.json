@@ -1,0 +1,42 @@
+[
+  {
+    "text": "I initially only knew HTML and had a basic understanding of CSS, but I wasn't very familiar with JavaScript. Over time, I gradually explored JavaScript, learning its fundamentals and how it brings interactivity to web pages. Now, I can confidently build dynamic and responsive web applications.",
+    "date": "Before CodeTribe..",
+    "category": {
+      "tag": "Before",
+      "color": "#a40404"
+    }
+  },
+  {
+    "text": "When I joined CodeTribe, I began learning about the React library, which is a powerful tool for building interactive user interfaces. React combines HTML, CSS, and JavaScript in a way that makes it easier to manage the structure, style, and functionality of a web application. It allows you to use JSX, a syntax extension that lets you write HTML-like code directly within JavaScript. This makes the development process more streamlined and efficient, especially when building complex, dynamic web pages. ",
+    "date": "Entered the Tribal Code",
+    "category": {
+      "tag": "Start",
+      "color": "#560b69"
+    }
+  },
+  {
+    "text": "After learning the fundamentals of React, I dove into the projects provided to put my skills to the test. These hands-on assignments allowed me to apply everything I had learned in a real-world context, deepening my understanding of React's capabilities. Once each project was completed, I saved them to GitHub, which helped me track my progress and build a portfolio of work to showcase my skills. This process not only strengthened my React knowledge but also gave me experience with version control and collaboration.",
+    "date": "Assignments",
+    "category": {
+      "tag": "Process",
+      "color": "#8600ff"
+    }
+  },
+  {
+    "text": "In addition to individual projects, I also participated in group projects, where collaboration was key. Working with others allowed me to enhance my communication and teamwork skills while learning from different perspectives. Together, we tackled more complex tasks, divided responsibilities, and combined our strengths to create robust and dynamic applications. These group projects not only strengthened our problem-solving abilities but also gave us experience in version control, conflict resolution, and coordinating tasks efficiently. It was an invaluable opportunity to simulate real-world development workflows.",
+    "date": "Group Projects",
+    "category": {
+      "tag": "Process",
+      "color": "#8600ff"
+    }
+  },
+  {
+    "text": "I have Gained the knowledge of creating a Web and Mobile app",
+    "date": "After CodeTribe",
+    "category": {
+      "tag": "End",
+      "color": "#018f69"
+    }
+  }
+]

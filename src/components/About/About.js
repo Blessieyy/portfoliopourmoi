@@ -5,6 +5,8 @@ import Cursor from "../../assets/about/cursorIcon.png";
 import Server from "../../assets/about/serverIcon.png";
 import UI from "../../assets/about/uiIcon.png";
 
+
+
 function About() {
   return (
     <section className="about-container" id="about">
