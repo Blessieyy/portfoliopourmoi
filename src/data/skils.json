@@ -2,7 +2,8 @@
   { "title": "HTML", "name": "Html", "performance": 80, "level": "Advanced" },
   { "title": "CSS", "name": "Css", "performance": 70, "level": "Advanced" },
   { "title": "react", "name": "React", "performance": 50, "level": "Intermediate" },
-  { "title": "mongo", "name": "MongoDB", "performance": 60, "level": "Intermediate" },
+  { "title": "react", "name": "React Native", "performance": 50, "level": "Intermediate" },
+  { "title": "mongo", "name": "MongoDB", "performance": 40, "level": "Beginner" },
   { "title": "node", "name": "NodeJs", "performance": 45, "level": "Beginner" },
   { "title": "fig", "name": "Figma", "performance": 85, "level": "Advanced" },
   { "title": "fire", "name": "Firebase", "performance": 60, "level": "Intermediate" }

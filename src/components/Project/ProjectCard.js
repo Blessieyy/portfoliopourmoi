@@ -6,12 +6,16 @@ import recipeImg from "../../assets/projects/recipe.png";
 import hotelImg from "../../assets/projects/Hotel.png";
 import emImg from "../../assets/projects/employee.png";
 import tdImg from "../../assets/projects/ToDo.png";
+
+import recImg from '../../assets/projects/rec.png'
+
 const image = {
   news: newsImg,
   recipe: recipeImg,
   hotel: hotelImg,
   employee: emImg,
   todo: tdImg,
+  rec:recImg,
 };
 
 function ProjectCard({

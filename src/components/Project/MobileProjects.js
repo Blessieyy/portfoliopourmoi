@@ -5,6 +5,8 @@ import mobile from "../../data/mobile.json";
 
 import ProjectCard from "./ProjectCard";
 
+
+
 function MobileProjects() {
  
     return (
@@ -14,7 +16,7 @@ function MobileProjects() {
             return <ProjectCard key={id} project={project} />;
           })}
         </div>
-        <h2 className="project-title">Other Projects</h2>
+        {/* <h2 className="project-title">Other Projects</h2> */}
         {/* <div className="others">
           {Oprojects.map((others, id) => {
             return (

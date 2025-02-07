@@ -10,6 +10,16 @@
     margin-right: 10%;
 }
 
+.Timeline-header {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: center;
+    color: #fff; 
+  }
+  
 .timeline-container::after {
     background-color: #e17b77;
     content: '';
@@ -139,11 +149,17 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .timeline-container{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
     .timeline-item-content,
     .timeline-item:nth-child(odd) .timeline-item-content {
         padding: 15px 10px;
         text-align: center;
         align-items: center;
+
     }
 
     .timeline-item-content .tag {

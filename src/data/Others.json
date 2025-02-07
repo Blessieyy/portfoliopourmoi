@@ -1,18 +1,46 @@
 [
     {
+        "title2": "Frontend Mentor Practice",
+        "description2": "A fantastic platform for improving your frontend development skills by working on real-world projects. It offers challenges where you can practice HTML, CSS, JavaScript, and frameworks like React. ",
+        "skills2": "React Express Node",
+        "demo2": "https://frontend-practice-blond.vercel.app/",
+        "source2": "https://github.com/Blessieyy/activity-1.git"
+      },
+    {
         "title2": "Employee App",
-        "img2": "employee",
-        "description2": "This is a project made to learn the latest languages by building an app.",
+        "description2": "Create an app where employers can easily add employees to specific roles through a form, while also allowing them to update and track employees based on their positions for better organization and communication.",
         "skills2": "React Express Node",
         "demo2": "https://employee-blue.vercel.app/",
-        "source2": "https://github.com/Blessieyy/News-main.git"
+        "source2": "https://employee-blue.vercel.app/"
       },
       {
         "title2": "To-Do List",
         "img2": "todo",
-        "description2": "This is a project made to learn the latest languages by building an app.",
+        "description2": "An app where you can add your tasks edit them and delete. Goes according the priority of your tasks from low to high",
         "skills2": "React Express Node",
         "demo2": "https://todolist-pi-lovat.vercel.app/todo",
         "source2": "https://github.com/Blessieyy/News-main.git"
+      },
+      {
+        "title2": "Shopping List",
+        "img2": "todo",
+        "description2": "A list of items you want to buy.",
+        "skills2": "React Express Node",
+        "demo2": "https://todolist-pi-lovat.vercel.app/todo",
+        "source2": "https://github.com/Blessieyy/shopping.git"
+      },
+      {
+        "title2": "MongoDB Library Management System (ReadME Practice)",
+        "img2": "todo",
+        "description2": "This project demonstrates the use of MongoDB to manage a simple library system. It includes collections for books, authors, and patrons, along with operations to query and manipulate data.",
+        "skills2": "React Express Node",
+        "source2": "https://github.com/Blessieyy/shopping.git"
+      },
+      {
+        "title2": "Memory Game",
+        "img2": "todo",
+        "description2": "using node js to create an array of items then bring it to the frontend to create a board game where you have to memorise!",
+        "skills2": "React Express Node",
+        "source2": "https://github.com/Blessieyy/Memory-Game-.git"
       }
 ]
